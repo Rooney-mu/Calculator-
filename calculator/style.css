@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(114, 114, 96);
+font-size: 18px;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+gap:3px;
+width: 400px;
+margin-left: 120px;
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+input{
+    height: 50px;
+    margin-left: 120px;
+    background-color: rgb(118, 94, 141);
+color: rgb(199, 182, 182);
+font-weight: 90px;
+font-size: 30px;
+margin-bottom: 12px;
+}
+.calculator{
+    background-color: rgb(55, 55, 94);
+width: 550px;
+height: 380px;
+padding: 30px;
+top:12px;
+left:-92px;
+
+}

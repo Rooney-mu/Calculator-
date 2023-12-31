@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMT calculator</title>
+</head>
+<body>
+    <div class="title">
+    <h1>welcome to hesabu</h1>
+</div>
+    <div class="calculator">
+        <input id="selected" class="selected" readonly>
+      <div class="content">
+        <button onclick="applyToSelected('0')">0</button>
+      <button onclick="applyToSelected('1')">1</button>
+      <button onclick="applyToSelected('2')">2</button>
+      <button onclick="applyToSelected('3')">3</button>
+      <button onclick="applyToSelected('4')">4</button>
+      <button onclick="applyToSelected('5')">5</button>
+      <button onclick="applyToSelected('6')">6</button>
+      <button onclick="applyToSelected('7')">7</button>
+      <button onclick="applyToSelected('8')">8</button>
+      <button onclick="applyToSelected('9')">9</button>
+      <button onclick="applyToSelected('10')">10</button>
+      <button onclick="applyToSelected('/')">/</button>
+      <button onclick="applyToSelected('*')">*</button>
+      <button onclick="applyToSelected('+')">+</button>
+      <button onclick="applyToSelected('-')">-</button>
+      <button  class="btn-space"onclick="clearSelected()">[]</button>
+      <button  class="btn-space"onclick="sum()">=</button>   
+     
+</div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
